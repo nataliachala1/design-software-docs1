@@ -1,0 +1,18 @@
+# Dominio
+
+> Estado: 🟢 Estable | Última actualización: 2026-06-24
+> Autor: Equipo ADSO 3145555 | Equipo: Arquitectura / Dominio
+
+## Contenido
+
+Aquí se define el modelo de dominio, las entidades principales, reglas de negocio y eventos relevantes que ocurren en el sistema.
+
+> **Diferencia con `06-data`:** esta sección describe el dominio en términos de negocio (entidades, invariantes, reglas, lenguaje ubicuo). No describe tablas, columnas ni esquemas de base de datos. Esos detalles de implementación van en [`06-data/`](../06-data/).
+
+## Archivos
+
+| Archivo | Descripción | Estado |
+|---------|-------------|--------|
+| [domain-map.md](./domain-map.md) | Mapa de dominio y contextos principales | 🟢 |
+| [entities-and-rules.md](./entities-and-rules.md) | Entidades, invariantes y reglas de negocio | 🟢 |
+| [domain-events.md](./domain-events.md) | Eventos de dominio y significado funcional | 🟢 |
